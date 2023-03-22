@@ -33,6 +33,7 @@ const NavBar = () => {
               [<Nav.Link as={NavLink} id={ComponentIDs.addProjectMenuItem} to="/addProject" key="addP">Add Project</Nav.Link>,
                 <Nav.Link as={NavLink} id={ComponentIDs.filterMenuItem} to="/filter" key="filter">Filter</Nav.Link>]
             ) : ''}
+            <Nav.Link as={NavLink} id={ComponentIDs.luckyPageMenuItem} to="/lucky" key="lucky">I&apos;m feeling lucky!</Nav.Link>
           </Nav>
           <Nav className="justify-content-end">
             {currentUser === '' ? (
